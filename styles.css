@@ -10,6 +10,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* header section */
 .header {
     display: flex;
     background-color: #1F2937;
@@ -28,9 +29,10 @@ ul {
     list-style-type: none;
 }
 
-a {
+a, p {
     text-decoration: none;
     color: #E5E7EB;
+    font-size: 18px;
 }
 
 .logo {
@@ -39,6 +41,7 @@ a {
     font-weight: 900;
 }
 
+/* Welcome section */
 .welcome {
     background-color: #1F2937;
     color: #E5E7EB;
@@ -47,7 +50,7 @@ a {
     flex: 1;
     padding: 40px;
     gap: 20px;
-
+    margin-bottom: 30px;
 }
 
 .sub-welcome {
@@ -57,10 +60,54 @@ a {
     gap: 8px;
 }
 
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
 button {
     padding: 8px 16px;
     max-width: 100px;
     border: none;
     background-color: #3882F6;
     border-radius: 8px;
+}
+
+/* catalog section */
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 30px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    max-width: 250px;
+    gap: 8px;
+}
+
+.product-image {
+    width: 100px;
+    height: auto;
+}
+
+.product-description {
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
 }
