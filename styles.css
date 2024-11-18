@@ -111,3 +111,25 @@ h2 {
     font-size: 18px;
     color: #1F2937;
 }
+
+/* testimonials section */
+
+.testimonials{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 120px;
+}
+
+.comment {
+    font-size: 24px;
+    color: #1F2937;
+}
+
+.author {
+    color: #1F2937;
+    align-self: end;
+    font-size: 18px;
+    font-weight: 900;
+}
